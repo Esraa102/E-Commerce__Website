@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .section {
+    @apply container mx-auto px-4 py-8;
+  }
+  .mainBtn {
+    @apply px-4 py-1 bg-orange-700 my-4 rounded-md text-white;
+  }
+  .sub-head {
+    @apply mb-4 text-xl font-bold text-orange-600 uppercase;
+  }
+}
+
+#sliderContainer::-webkit-scrollbar {
+  display: none;
+}
+#sliderContainer {
+  scroll-behavior: smooth;
+}

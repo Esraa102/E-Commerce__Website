@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .menue-btn {
+    @apply cursor-pointer text-lg hover:text-orange-600 transition duration-300;
+  }
+}

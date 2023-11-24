@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .box {
+    @apply flex flex-col gap-2 mb-4;
+  }
+  .input {
+    @apply p-1 border border-gray-500 rounded-md focus:outline-none focus:border focus:border-orange-600 placeholder:text-sm;
+  }
+  .label {
+    @apply font-semibold;
+  }
+  .error {
+    @apply text-sm text-red-600 font-semibold break-words;
+  }
+}
